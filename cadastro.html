@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilosHeader.css">
-    <link rel="stylesheet" href="login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
 </head>
 <body>
-    <!-- header -->
+     <!-- header -->
     <div class="header">
         <div class="container">
             <h1>AquaTech</h1>
@@ -31,17 +31,26 @@
             <div class="caixa-formulario">
                 <h2>Olá,Seja Bem-Vindo</h2>
                 <div class="campo">
+                    <label for="Nome">Nome:</label>
+                    <input type="Nome" id="Nome" placeholder="nome/sobrenome...">
+                </div>
+                <div class="campo">
                     <label for="email">E-mail</label>
                     <input type="email" id="email" placeholder="email@email.com">
                 </div>
                 <div class="campo">
                     <label for="password">Senha:</label>
                      <input type="password" id="password" placeholder="**********">
+                </div>
+                <div class="campo">
+                    <label for="password">Confirmar Senha:</label>
+                    <input type="password" id="password" placeholder="***********">
                 </div><br>
-                <button onclick="enviar()">Enviar</button>
+                <button onclick="enviar()">Cadastrar</button>
             </div>
         </div>
     </div>
+
 
     <!--Footer -->
 
